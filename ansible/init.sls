@@ -2,7 +2,7 @@ ansible_repo:
   pkgrepo.managed:
     - ppa: ansible/ansible
 
-ansible_server:
+ansible:
   pkg:
     - name: ansible
     - installed
